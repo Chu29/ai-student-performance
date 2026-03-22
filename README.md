@@ -9,15 +9,15 @@ AI_Performance_System/
 │   └── requirements.txt    # Python dependencies
 └── frontend/
     ├── app/
-    │   ├── page.js         # Main dashboard page
-    │   ├── layout.js       # Root layout
+    │   ├── page.jsx         # Main dashboard page
+    │   ├── layout.jsx       # Root layout
     │   └── globals.css     # Global styles
-    ├── components/
-    │   ├── Header.js
-    │   ├── PredictionForm.js
-    │   ├── ResultCard.js
-    │   ├── ProbabilityChart.js
-    │   └── RecommendationsList.js
+    ├── _components/
+    │   ├── Header.jsx
+    │   ├── PredictionForm.jsx
+    │   ├── ResultCard.jsx
+    │   ├── ProbabilityChart.jsx
+    │   └── RecommendationsList.jsx
     ├── package.json
     ├── next.config.js
     ├── tailwind.config.js
