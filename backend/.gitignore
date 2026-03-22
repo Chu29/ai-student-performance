@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+
+# Training outputs
+model.pkl
+scaler.pkl
+
+# Downloaded dataset archive (recreated by train_model.py)
+student.zip
+student-mat.csv
+student-merge.R
+student-por.csv
+student.txt
+
+# Local environment files
+.env
