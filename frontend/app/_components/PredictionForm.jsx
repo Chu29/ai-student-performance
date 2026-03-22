@@ -347,7 +347,7 @@ const PredictionForm = ({ onSubmit, loading = false }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="rounded-lg border p-4 shadow-[0_1px_3px_rgba(0,0,0,0.06)] transition-colors duration-150 hover:border-[var(--border-hover)] dark:shadow-none"
+      className="rounded-lg border p-4 shadow-[0_1px_3px_rgba(0,0,0,0.06)] transition-colors duration-150 hover:border-(--border-hover) dark:shadow-none"
       style={{
         backgroundColor: "var(--surface)",
         borderColor: "var(--border)",

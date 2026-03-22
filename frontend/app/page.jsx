@@ -74,9 +74,9 @@ export default function Home() {
   };
 
   return (
-    <div className="flex h-[100dvh] flex-col overflow-hidden">
+    <div className="flex h-dvh flex-col overflow-hidden">
       <Header />
-      <main className="mx-auto grid h-[calc(100dvh-4rem)] w-full max-w-[1200px] flex-1 min-h-0 grid-cols-1 gap-4 overflow-hidden px-4 py-3 lg:grid-cols-[minmax(420px,1fr)_1fr] lg:px-6">
+      <main className="mx-auto grid h-[calc(100dvh-4rem)] w-full max-w-300 flex-1 min-h-0 grid-cols-1 gap-4 overflow-hidden px-4 py-3 lg:grid-cols-[minmax(420px,1fr)_1fr] lg:px-6">
         <section className="flex min-h-0 flex-col gap-2">
           <div className="flex items-center gap-2 text-xs">
             <span
@@ -118,7 +118,7 @@ export default function Home() {
           )}
 
           {!result && !loading && !error && (
-            <div className="flex min-h-[360px] flex-1 flex-col items-center justify-center gap-3 text-center">
+            <div className="flex min-h-90 flex-1 flex-col items-center justify-center gap-3 text-center">
               <GraduationCap
                 size={40}
                 style={{ color: "var(--text-tertiary)" }}
@@ -156,7 +156,7 @@ export default function Home() {
                 }}
               >
                 <Skeleton className="h-3 w-48" />
-                <Skeleton className="mt-4 h-[200px] w-full" />
+                <Skeleton className="mt-4 h-50 w-full" />
               </div>
 
               <div

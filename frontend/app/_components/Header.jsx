@@ -10,11 +10,11 @@ const Header = () => {
         borderColor: "var(--border)",
       }}
     >
-      <div className="mx-auto flex h-full w-full max-w-[1200px] items-center justify-between px-6">
+      <div className="mx-auto flex h-full w-full max-w-300 items-center justify-between px-6">
         <div className="flex min-w-0 items-center gap-2.5">
           <div
             aria-hidden="true"
-            className="h-4 w-4 rounded-[4px]"
+            className="h-4 w-4 rounded-sm"
             style={{
               background:
                 "linear-gradient(135deg, var(--accent), var(--text-primary))",
